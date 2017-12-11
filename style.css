@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+body
+{
+    font-family    : georgia, sans-serif;
+    font-style     : normal;
+    width          : 750px;
+    margin         : 0 auto;
+    padding-top    : 20px;
+    padding-bottom : 60px;
+    background     : rgb(0%, 0%, 0%) url("background.png");
+}
+
+.blog-name
+{
+    border             : 6px double rgb(25%, 25%, 25%);
+    border-right-width : 12px;
+    border-left-width  : 12px;
+    padding-top        : 40px;
+    padding-bottom     : 50px;
+    position           : relative;
+    text-align         : center;
+    font-size          : 60px;
+    font-weight        : 900;
+    color              : rgb(90%, 90%, 100%);
+}
+
+.blog-name, .article-text
+{
+    box-shadow : 0 1px 4px rgba(100, 100, 100, 0.8), 0 0 40px rgba(100, 100, 100, 0.3) inset;
+}
+
+.article-title
+{
+    position    : relative;
+    left        : 0;
+    top         : 70px;
+    font-size   : 25px;
+    font-weight : 600;
+    color       : rgb(60%, 100%, 53%);
+}
+
+.article-info, .article-text
+{
+    font-family : verdana, sans;
+}
+
+.article-info
+{
+    border-top     : 1px hidden rgb(85%, 85%, 85%);
+    padding-top    : 30px;
+    padding-bottom : 15px;
+    position       : relative;
+    left           : 0;
+    top            : -60px;
+    font-size      : 16px;
+    font-weight    : 500;
+    color          : rgb(60%, 60%, 60%);
+}
+
+.article-text
+{
+    padding     : 5px 10px;
+    position    : relative;
+    left        : 0;
+    top         : -10px;
+    font-size   : 20px;
+    font-weight : 300;
+    color       : rgb(85%, 85%, 90%);
+}
+
+.page-previous
+{
+    float : left;
+}
+
+.page-next, .article-action
+{
+    float : right;
+}
+
+.page-previous, .page-next
+{
+    font-size   : 20px;
+    font-weight : 500;
+    color       : rgb(90%, 90%, 90%);
+}
+
+legend
+{
+    font-size   : 21px;
+    font-weight : 500;
+    color       : rgb(85%, 90%, 85%);
+}
+
+label
+{
+    margin-right : 1.5em;
+    float        : left;
+    width        : 5em;
+    padding-top  : 0.3em;
+    text-align   : right;
+    color        : rgb(90%, 90%, 90%);
+}
+
+input[type="text"], input[type="password"]
+{
+    display       : block;
+    font-size     : 1em;
+    margin-bottom : 0.8em;
+    border        : 1px solid #000000;
+    padding       : 0.1em;
+    width         : 15em;
+}
+
+.back-button
+{
+    float : left;
+}
+
+.logout-button
+{
+    float : right;
+}
+
+.error-message, .success-message
+{
+    font-size   : 20px;
+    font-weight : 300;
+    padding-top : 10px;
+}
+
+.error-message
+{
+    color : rgb(85%, 10%, 10%);
+}
+
+.success-message
+{
+    color : rgb(10%, 85%, 10%);
+}

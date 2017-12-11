@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<settings>
+    <name>Amazing Blog</name>
+    <host>localhost</host>
+    <user>nanoblog</user>
+    <password></password>
+    <database>nanoblog</database>
+</settings>
