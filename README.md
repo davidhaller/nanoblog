@@ -8,7 +8,7 @@ Blog settings can be changed in the `config.xml` configuration file. Here the ad
 
 ## License
 
-nanoblog is brought to you under the conditions of the [GNU Affero General Public License Version 3][1].
+nanoblog is brought to you under the conditions of the [GNU Affero General Public License (Version 3 or later)][1].
 
 The default background image "Dark Wood" was created by Omar Alvarado, licensed under [CC-BY-SA 3.0][2], received from [Subtle Patterns][3].
 
